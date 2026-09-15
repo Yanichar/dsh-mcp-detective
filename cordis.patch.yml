@@ -1,0 +1,4 @@
+# mcp-detective bundle patch: mounts the plugin into a profile.
+- insert:
+    - id: mcp-detective
+      name: 'dsh-mcp-detective'

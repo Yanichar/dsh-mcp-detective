@@ -1,0 +1,4 @@
+# Normalize to LF in the repository and in the working copy. The build script
+# carries a shebang and the plugin is checked out on POSIX and Windows alike;
+# a CRLF shebang breaks `node scripts/build.mjs` execution on POSIX.
+* text=auto eol=lf
